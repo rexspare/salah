@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "salah",
+    "slug": "prayer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/favicon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "notification": {
+      "sound": true
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#053529"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "sound": true,
+      "bundleIdentifier": "com.aburuqayyah.salah"
+    },
+    "android": {
+      "permissions": [
+        "NOTIFICATIONS"
+      ],
+      "sound": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash.png",
+        "backgroundColor": "#053529"
+      },
+      "notification": {
+        "sound": true,
+        "sounds": [
+          "Misharycut.mp3"
+        ]
+      },
+      "package": "com.aburuqayyah.salah"
+    },
+    "assetBundlePatterns": [
+      "assets/*",
+      "assets/mp3/*"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9149cd15-ae65-4f74-96e8-fdbc0aba7a85"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9149cd15-ae65-4f74-96e8-fdbc0aba7a85"
+    },
+    "owner": "aburuqayyah"
+  }
+}
